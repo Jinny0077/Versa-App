@@ -10,7 +10,7 @@ import { ShippingDetails } from "./pages/ShippingDetails";
 import { ProfileManager } from "./Profile/ProfileManager";
 // import { useProfileStateManagement } from "./Profile/profileStateManagement";
 import { MyProfile } from "./pages/MyProfileCopy";
-// import Dynamic from "./pages/dynamic";
+import Dynamic from "./pages/dynamic";
 
 function App() {
   // const [profileState, profileActions] = useProfileStateManagement();
@@ -30,7 +30,7 @@ function App() {
                 element={<ShippingDetails />}
               />
               <Route path="entry/profile" element={<MyProfile />} />
-              {/* <Route path="entry/dynamic" element={<Dynamic />} /> */}
+              <Route path="entry/dynamic" element={<Dynamic />} />
             </Routes>
           </ProfileManager>
         </Container>
