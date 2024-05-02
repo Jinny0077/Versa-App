@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.image-uploader label {
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  color: black;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #b7b6b6;
+}
+
+label:active {
+  transform: scale(0.9);
+}
+
+.image-uploader {
+  position: relative;
+  text-align: center;
+}
+
+.image-uploader img {
+  margin-bottom: 10px;
+}
+
+.my-profile {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f9dbe5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-details {
+  margin-top: 50px;
+}
+
+.user-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-details label {
+  font-weight: bold;
+}
+
+.user-details input,
+.user-details select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.user-details button {
+  background-color: #f1f1f1;
+  color: black;
+  border: 1px solid #b7b6b6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  left: 40%;
+}
+
+.user-details button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}

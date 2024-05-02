@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Food",
+    "price": 10,
+    "imgUrl": "/imgs/food.webp"
+  },
+  {
+    "id": 2,
+    "name": "Pouch",
+    "price": 15,
+    "imgUrl": "/imgs/pouch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running wheel",
+    "price": 50,
+    "imgUrl": "/imgs/runningwheel.webp"
+  },
+  {
+    "id": 4,
+    "name": "Cage",
+    "price": 100,
+    "imgUrl": "/imgs/cage.webp"
+  }
+]

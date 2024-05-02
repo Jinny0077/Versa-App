@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f9dbe5;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-heading {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.about-section {
+  background-image: url("/imgs/background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+.about-content {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 20px;
+  color: black;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.about-content p {
+  font-size: 18px;
+}
+
+.about-content span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#skills {
+  margin-top: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.skills ul li {
+  text-align: center;
+  flex-basis: calc(33.33% - 10px);
+  padding: 10px;
+  background-color: #f5bdc7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul li:hover {
+  transform: translateY(-5px);
+}
+
+#education {
+  margin-top: 20px;
+}
+
+.education {
+  background-color: #f5bdc7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #f5bdc7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ec4d8f;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ec4d8f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: auto;
+}
+
+.form button:hover {
+  background-color: #f192aa;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ec4d8f;
+}
